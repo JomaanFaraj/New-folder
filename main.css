@@ -1,40 +1,29 @@
 body {
-    font-family: Arial, sans-serif;
-    direction: rtl;
+    
     text-align: center;
-    margin: 0;
-    background-color: #f4f4f4;
+    background-color: white;
     color: #333;
 }
 
-header {
-    background-color: #176b87;
-    color: white;
-    padding: 30px 15px;
-}
 
 main {
     margin: 40px auto;
     padding: 25px;
     max-width: 600px;
-    background-color: white;
-    border-radius: 10px;
-}
-
-button {
     background-color: #176b87;
     color: white;
-    padding: 12px 25px;
+    border-radius: 10px;
+}
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+button {
+    padding: 10px 20px;
+    background-color: white;
+    color: rgb(5, 5, 5);
     border: none;
-    border-radius: 6px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
-button:hover {
-    background-color: #104b60;
-}
-
-footer {
-    padding: 15px;
-    background-color: #ddd;
-}
